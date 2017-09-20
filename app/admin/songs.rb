@@ -1,5 +1,5 @@
 ActiveAdmin.register Song do
-  permit_params :name, :genre
+  permit_params :artist, :title
 
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
