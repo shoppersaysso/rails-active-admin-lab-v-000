@@ -1,6 +1,6 @@
 ActiveAdmin.register Song do
-  permit_params :artist, :title
-  actions :all, except: [:destroy]
+  
+ permit_params :title, :artist_id
 
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
