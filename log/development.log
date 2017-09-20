@@ -3028,3 +3028,25 @@ Cannot render console from 136.179.21.81! Allowed networks: 127.0.0.1, ::1, 127.
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
 Processing by ArtistsController#index as HTML
   Rendered artists/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 13913ms (Views: 13906.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/active_admin.self-661ac8ac50b0129875dfbbd529a010e8164206cc4d391bba465df91fc0c1b0e9.css?body=1" for 136.179.21.81 at 2017-09-20 01:32:50 +0000
+Cannot render console from 136.179.21.81! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 136.179.21.81 at 2017-09-20 01:32:50 +0000
+Cannot render console from 136.179.21.81! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/admin" for 136.179.21.81 at 2017-09-20 01:32:51 +0000
+Cannot render console from 136.179.21.81! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::DashboardController#index as HTML
+Completed 401 Unauthorized in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/login" for 136.179.21.81 at 2017-09-20 01:32:51 +0000
+Cannot render console from 136.179.21.81! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/bundler/gems/activeadmin-bff779a4c879/app/views/active_admin/devise/shared/_links.erb (4.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/bundler/gems/activeadmin-bff779a4c879/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (58.8ms)
